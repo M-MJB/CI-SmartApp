@@ -55,7 +55,7 @@ jobs:
             - name: Athenticate to GCP
               uses: google-github-actions/auth@v1
               with:
-                credentials_json: ${{ secrets.MY_KEY1 }} #key name from github action key (seccret and varaibles)
+                credentials_json: ${{ secrets.model-ruler-446209-c7 }} #key name from github action key (seccret and varaibles)
 
                 
             - name: Configure GCP project
